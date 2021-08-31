@@ -20,3 +20,14 @@ a = 5	[number]
 a = five	[String]
 - Dynamic Type Language 
 There are 7 types of data in Java Script
+
+***Questions
+- Which type of variable reference send to function in javascript?
+- Is JavaScript function pass by reference?
+- Is JS is pass-by-reference or pass-by-value language?
+
+Answer - https://www.youtube.com/watch?v=fD0t_DKREbE&ab_channel=ProgrammingwithMosh
+
+***Questions
+- Var Hoisting
+Answer - A JS default behaviour, in which we can use variables and functions before initializing them.
