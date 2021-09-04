@@ -40,10 +40,11 @@ console.log(note); //Global Leaking line(23)
 
 
 //***When var declared in block scope, then it can also work under the local scope.
-
+//***Difference between var & let example in block scope
 //***var hoisting
+//java script automatically hoist the left side of 'var-type' variable declaration part with undifined value by ignoring the block scope. Just only var-type, const/let -type will not work, cause these two don't work outside the block scope.
 
-////difference between var & let example in block scope 
+ 
 
 for(var i=0; i<10; i++)
 // for(let i=0; i<10; i++)
